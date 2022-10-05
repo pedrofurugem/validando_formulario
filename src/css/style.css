@@ -1,0 +1,106 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../images/bg-repeat.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container .duvida{
+    width: 380px;
+    color: #FFF;
+    padding-right: 72px;
+}
+
+.duvida .titulo {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 11px;
+}
+
+.duvida .descricao {
+    font-size: 15px;
+    font-weight: 400;
+    width: 300px;
+}
+
+.container .formulario {
+    background-color: #FFF;
+    width: 340px;
+    height: 378px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px 0;
+}
+
+.container .formulario input {
+    width: 303px;
+    height: 50px;
+    margin: 10px 0;
+    font-weight: 700;
+    border-radius: 5px;
+    
+}
+
+.caixa-mensagem {
+    resize: none;
+    margin: 10px 0;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+
+.alerta-visivel {
+    margin-right: 150px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.botao {
+    background-color: #3CCC87;
+    color: #FFF;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.botao:hover{
+    background-color: rgb(23, 208, 23);
+}
+
+.botao a{
+    color: #FFF;
+    font-weight: 900;
+}
+
+/*ADICIONADOS AOS EVENTOS DO JAVASCRIPT*/
+
+.borda-vermelha {
+    border: 1px solid red;
+}
+
+.borda-verde{
+    border: 2px solid green;
+}
+
+.alerta {
+    font-size: 8px;
+    font-weight: 400;
+    color: #F52E2E;
+    margin-right: 235px;
+    margin-top: -10px;
+    display: none;
+}
