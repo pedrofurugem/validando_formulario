@@ -1,0 +1,17 @@
+@media(max-width: 724px){
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .container .duvida{
+        width: 280px;
+        margin-bottom: 25px;
+    }
+
+    .duvida .titulo {
+        width: 300px
+    }
+}
